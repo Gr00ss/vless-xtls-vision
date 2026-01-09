@@ -935,6 +935,7 @@ iptables -A INPUT -p tcp --dport 22222 -m recent --name ssh --set
 iptables -A INPUT -p tcp --dport 22222 -m recent --name ssh --update --seconds 60 --hitcount 5 -j DROP
 ```
 
+
 #### Защита от DDoS-атак
 
 **Техники защиты от DDoS:**
